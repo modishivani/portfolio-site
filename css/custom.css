@@ -11,8 +11,8 @@
 body{
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
-	background: #111;
-	color: #707070;
+	background: rgb(220, 229, 216);
+	color: #2f312f;
 }
 
 h1,
@@ -55,7 +55,7 @@ a:focus{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #111;
+	background: rgb(220, 229, 216);;
 	z-index: 9999;
 	text-align: center;
 }
@@ -145,7 +145,7 @@ a:focus{
 	display: inline-block;
     background: #26bdef;
     border: 2px solid #26bdef;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 16px;
 	letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -168,7 +168,7 @@ header.header{
 
 header .navbar{
 	padding: 0;
-	background: rgba(0,0,0,0.4);
+	background: rgb(172, 189, 165);;
 	z-index: 40;
 	transition: all 0.3s;
 }
@@ -227,7 +227,7 @@ header .navbar.sticky-header{
 	top: 0;
 	left: 0;
 	right: 0;
-	background: rgba(0,0,0,0.9);
+	background: rgb(220, 229, 216);;
 }
 
 .sticky-header .navbar-nav .nav-item{
